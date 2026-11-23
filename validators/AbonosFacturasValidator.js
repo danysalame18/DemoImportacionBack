@@ -1,0 +1,43 @@
+const { celebrate, Joi, Segments } = require('celebrate')
+
+module.exports = {
+    create: celebrate({
+        [Segments.BODY]: Joi.object().keys({
+            fecha: Joi.string().required(),
+            importe: Joi.number().required(),
+            clientes: Joi.string().required(),
+            colaboradores: Joi.string().required(),
+            facturas: Joi.string(),
+            notasCargo: Joi.string(),
+            formaPago: Joi.string().required(),
+            bancos: Joi.string().required(),
+            comisionPagada: Joi.string().required(),
+            comisiones: Joi.string(),
+            observaciones: Joi.string().required(),
+            concepto: Joi.string().required(),
+            codigoAgrupado: Joi.string().required(),
+            editado: Joi.string(),
+        }),
+    }),
+    edit: celebrate({
+        [Segments.BODY]: Joi.object().keys({
+            is_active: Joi.string(),
+            fecha: Joi.string(),
+            importe: Joi.number(),
+            clientes: Joi.string(),
+            colaboradores: Joi.string(),
+            facturas: Joi.string(),
+            notasCargo: Joi.string(),
+            formaPago: Joi.string(),
+            bancos: Joi.string(),
+            comisionPagada: Joi.string(),
+            comisiones: Joi.string(),
+            observaciones: Joi.string(),
+            concepto: Joi.string(),
+            codigoAgrupado: Joi.string(),
+            idCliente: Joi.string(),
+            notaEdit: Joi.string(),
+            editado: Joi.string(),
+        }),
+    }),
+};

@@ -1,0 +1,516 @@
+const mongoose = require ('mongoose')
+const bcrypt = require ('bcrypt')
+
+const SALT_WORK_FACTOR = 10;
+
+const { Schema } = mongoose;
+
+const userSchema = new Schema({
+    is_active:{
+        type: String,
+        default: "Si"
+    },
+    nombre:{
+        type: String,
+        required: true
+    },
+    apellido:{
+        type: String,
+        required: true
+    },
+    email:{
+        type: String,
+        required: true
+    },
+    password:{
+        type: String,
+        required: true
+    },
+    menu_planteles:{
+        type: Boolean,
+        default: false
+    },
+    menu_areas:{
+        type: Boolean,
+        default: false
+    },
+    menu_admin:{
+        type: Boolean,
+        default: false
+    },
+    estado_cuenta_vendedores:{
+        type: Boolean,
+        default: false
+    },
+    menu_departamentos:{
+        type: Boolean,
+        default: false
+    },
+    menu_proveedores:{
+        type: Boolean,
+        default: false
+    },
+    proveedores_create:{
+        type: Boolean,
+        default: false
+    },
+    menu_gastos:{
+        type: Boolean,
+        default: false
+    },
+    gastos_create:{
+        type: Boolean,
+        default: false
+    },
+    gastos_autorizar:{
+        type: Boolean,
+        default: false
+    },
+    menu_clientes:{
+        type: Boolean,
+        default: false
+    },
+    clientes_create:{
+        type: Boolean,
+        default: false
+    },
+    clientes_edo_cta:{
+        type: Boolean,
+        default: false
+    },
+    menu_catalogos:{
+        type: Boolean,
+        default: false
+    },
+    menu_nominas:{
+        type: Boolean,
+        default: false
+    },
+    menu_empleados:{
+        type: Boolean,
+        default: false
+    },
+    empleados_create:{
+        type: Boolean,
+        default: false
+    },
+    empleados_sueldo:{
+        type: Boolean,
+        default: false
+    },
+    menu_puestos:{
+        type: Boolean,
+        default: false
+    },
+    puestos_create:{
+        type: Boolean,
+        default: false
+    },
+    nominas_create:{
+        type: Boolean,
+        default: false
+    },
+    nominas_listado:{
+        type: Boolean,
+        default: false
+    },
+    nominas_pagos_esp:{
+        type: Boolean,
+        default: false
+    },
+    nominas_pagar:{
+        type: Boolean,
+        default: false
+    },
+    menu_reportes:{
+        type: Boolean,
+        default: false
+    },
+    menu_ingresos:{
+        type: Boolean,
+        default: false
+    },
+    menu_egresos:{
+        type: Boolean,
+        default: false
+    },
+    menu_usuarios:{
+        type: Boolean,
+        default: false
+    },
+    usuarios_create:{
+        type: Boolean,
+        default: false
+    },
+    usuarios_permisos:{
+        type: Boolean,
+        default: false
+    },
+    menu_edoCta_Cliente:{
+        type: Boolean,
+        default: false
+    },
+    clientes: [
+        {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Clientes",
+        },
+      ],
+    planteles: [
+        {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Planteles",
+        },
+      ],
+    areas: [
+        {
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Areas",
+        },
+    ],
+    colaboradores: [
+        {
+          type: mongoose.Schema.Types.ObjectId,
+          ref: "Colaboradores",
+        },
+      ],
+      vendedor:{
+        type: String,
+        default: "No"
+    },
+      menu_cobradores:{
+          type: Boolean,
+          default: false
+      },
+      menu_logs:{
+          type: Boolean,
+          default: false
+      },
+      menu_articulos:{
+          type: Boolean,
+          default: false
+      },
+      menu_colores:{
+          type: Boolean,
+          default: false
+      },
+      colores_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_tipos_telas:{
+          type: Boolean,
+          default: false
+      },
+      tipos_telas_create:{
+          type: Boolean,
+          default: false
+      },
+      articulos_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_inventarios:{
+          type: Boolean,
+          default: false
+      },
+      inventarios:{
+          type: Boolean,
+          default: false
+      },
+      menu_traspasos_salida:{
+          type: Boolean,
+          default: false
+      },
+      traspasos_salida_create:{
+          type: Boolean,
+          default: false
+      },
+      cancelar_traspaso_salida:{
+          type: Boolean,
+          default: false
+      },
+      menu_traspasos_entrada:{
+          type: Boolean,
+          default: false
+      },
+      traspasos_entrada_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_compras:{
+          type: Boolean,
+          default: false
+      },
+      menu_oc:{
+          type: Boolean,
+          default: false
+      },
+      oc_create:{
+          type: Boolean,
+          default: false
+      },
+      pendiente_embarcar:{
+          type: Boolean,
+          default: false
+      },
+      embarques:{
+          type: Boolean,
+          default: false
+      },
+      compras:{
+          type: Boolean,
+          default: false
+      },
+      compras_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_ventas:{
+          type: Boolean,
+          default: false
+      },
+      ventas_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_pedidos:{
+          type: Boolean,
+          default: false
+      },
+      pedidos_create:{
+          type: Boolean,
+          default: false
+      },
+      pedidos_autorizar:{
+        type: Boolean,
+        default: false
+     },
+      menu_devoluciones:{
+          type: Boolean,
+          default: false
+      },
+      menu_devolucionesAdmin:{
+        type: Boolean,
+        default: false
+    },
+      devoluciones_create:{
+          type: Boolean,
+          default: false
+      },
+      menu_disponible:{
+          type: Boolean,
+          default: false
+      },
+      disponible_vendedores:{
+          type: Boolean,
+          default: false
+      },
+      menu_surtidos:{
+          type: Boolean,
+          default: false
+      },
+      surtidos_create:{
+          type: Boolean,
+          default: false
+      },
+      pendiente_recibir:{
+          type: Boolean,
+          default: false
+      },
+      faltas_empleados:{
+          type: Boolean,
+          default: false
+      },
+      seguimiento_inventarios:{
+          type: Boolean,
+          default: false
+      },
+      grupos:{
+          type: Boolean,
+          default: false
+      },
+      proyeccionEgresos:{
+          type: Boolean,
+          default: false
+      },
+      edoCtaClientes:{
+          type: Boolean,
+          default: false
+      },
+      proyeccionIngresos:{
+          type: Boolean,
+          default: false
+      },
+      altaEvidencia:{
+          type: Boolean,
+          default: false
+      },
+      pagoClientes:{
+          type: Boolean,
+          default: false
+      },
+      reporteCobranza:{
+        type: Boolean,
+        default: false
+    },
+    configAdmin:{
+        type: Boolean,
+        default: false
+    },
+    configuracion:{
+        type: Boolean,
+        default: false
+    },
+    bancos:{
+        type: Boolean,
+        default: false
+    },
+    cambiaPrecios:{
+        type: Boolean,
+        default: false
+    },
+    menuCalidad:{
+        type: Boolean,
+        default: false
+    },
+    calidadCantidad:{
+        type: Boolean,
+        default: false
+    },
+    calidadImportes:{
+        type: Boolean,
+        default: false
+    },
+    menuAnticipos:{
+        type: Boolean,
+        default: false
+    },
+    anticiposCreate:{
+        type: Boolean,
+        default: false
+    },
+    abonos:{
+        type: Boolean,
+        default: false
+    },
+    abonosCreate:{
+        type: Boolean,
+        default: false
+    },
+    notasCargo:{
+        type: Boolean,
+        default: false
+    },
+    notasCargoCreate:{
+        type: Boolean,
+        default: false
+    },
+    bonificaciones:{
+        type: Boolean,
+        default: false
+    },
+    bonificacionesCreate:{
+        type: Boolean,
+        default: false
+    },
+    comisiones:{
+        type: Boolean,
+        default: false
+    },
+    comisionesCreate:{
+        type: Boolean,
+        default: false
+    },
+    muestrasEntrada:{
+        type: Boolean,
+        default: false
+    },
+    muestrasEntradaCreate:{
+        type: Boolean,
+        default: false
+    },
+    muestrasSalida:{
+        type: Boolean,
+        default: false
+    },
+    muestrasSalidaCreate:{
+        type: Boolean,
+        default: false
+    },
+    pagoProveedores:{
+        type: Boolean,
+        default: false
+    },
+    pagoProveedoresCreate:{
+        type: Boolean,
+        default: false
+    },
+    edoCtaProveedores:{
+        type: Boolean,
+        default: false
+    },
+    ajustesInventario:{
+        type: Boolean,
+        default: false
+    },
+    autorizarAjustesInventario:{
+        type: Boolean,
+        default: false
+    },
+
+
+    menu_fiscal:{
+        type: Boolean,
+        default: false
+    },
+    facturasFiscal:{
+        type: Boolean,
+        default: false
+    },
+    compPagosFiscal:{
+        type: Boolean,
+        default: false
+    },
+    devolucionesFiscal:{
+        type: Boolean,
+        default: false
+    },
+    notasCreditoFiscal:{
+        type: Boolean,
+        default: false
+    },
+    menu_empresas:{
+        type: Boolean,
+        default: false
+    },
+    cancelarNotas:{
+        type: Boolean,
+        default: false
+    },
+},
+{
+    timestamps: true,
+    versionKey: false
+});
+
+userSchema.pre('save', function (next) {
+    const user = this;
+    // revisa si la contraseña es nueva o modificada
+    if (!user.isModified('password')) return next();
+    // genera un salt
+    return bcrypt.genSalt(SALT_WORK_FACTOR, function (errSalt, salt) {
+      if (errSalt) return next(errSalt);
+      // hash jala el password usado por salt
+      return bcrypt.hash(user.password, salt, function (errHash, hash) {
+        if (errHash) return next(errHash);
+        // anula la contraseña inicial sin cifrar el hash
+        user.password = hash;
+        return next();
+      });
+    });
+  });
+
+
+const User = mongoose.model('User', userSchema)
+module.exports = User;

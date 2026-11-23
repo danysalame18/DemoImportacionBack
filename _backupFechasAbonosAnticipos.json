@@ -1,0 +1,930 @@
+[
+  {
+    "_id": "685db5b84267cb003c45bc72",
+    "idAbono": 5569,
+    "fechaAnterior": "2025-06-26",
+    "fechaNueva": "2025-02-04",
+    "idAnticipo": 14,
+    "importe": 4320
+  },
+  {
+    "_id": "685db8564267cb003c45bdd9",
+    "idAbono": 5570,
+    "fechaAnterior": "2025-06-26",
+    "fechaNueva": "2025-02-06",
+    "idAnticipo": 17,
+    "importe": 1920
+  },
+  {
+    "_id": "685dc11f4267cb003c45c4f9",
+    "idAbono": 5575,
+    "fechaAnterior": "2025-06-26",
+    "fechaNueva": "2025-01-08",
+    "idAnticipo": 13,
+    "importe": 2520
+  },
+  {
+    "_id": "685dc1894267cb003c45c57f",
+    "idAbono": 5576,
+    "fechaAnterior": "2025-06-26",
+    "fechaNueva": "2025-01-08",
+    "idAnticipo": 13,
+    "importe": 0.42
+  },
+  {
+    "_id": "685ddb7e4267cb003c45cffd",
+    "idAbono": 5580,
+    "fechaAnterior": "2025-06-26",
+    "fechaNueva": "2025-06-13",
+    "idAnticipo": 33,
+    "importe": 1500
+  },
+  {
+    "_id": "68632ce659b926003cf8a88d",
+    "idAbono": 5625,
+    "fechaAnterior": "2025-06-30",
+    "fechaNueva": "2024-10-10",
+    "idAnticipo": 1,
+    "importe": 23640
+  },
+  {
+    "_id": "68632ce659b926003cf8a88f",
+    "idAbono": 5626,
+    "fechaAnterior": "2025-06-30",
+    "fechaNueva": "2024-10-10",
+    "idAnticipo": 1,
+    "importe": 6240
+  },
+  {
+    "_id": "68632ce659b926003cf8a891",
+    "idAbono": 5627,
+    "fechaAnterior": "2025-06-30",
+    "fechaNueva": "2024-10-10",
+    "idAnticipo": 1,
+    "importe": 6060
+  },
+  {
+    "_id": "68632ce659b926003cf8a893",
+    "idAbono": 5628,
+    "fechaAnterior": "2025-06-30",
+    "fechaNueva": "2024-10-10",
+    "idAnticipo": 1,
+    "importe": 2400
+  },
+  {
+    "_id": "68632ce659b926003cf8a895",
+    "idAbono": 5629,
+    "fechaAnterior": "2025-06-30",
+    "fechaNueva": "2024-10-10",
+    "idAnticipo": 1,
+    "importe": 10320
+  },
+  {
+    "_id": "6866bbc0964627003c2ab15f",
+    "idAbono": 5640,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 28,
+    "importe": 9594.84
+  },
+  {
+    "_id": "6866bc2b964627003c2ab19e",
+    "idAbono": 5641,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2025-03-04",
+    "idAnticipo": 23,
+    "importe": 516
+  },
+  {
+    "_id": "6866bca3964627003c2ab1e3",
+    "idAbono": 5642,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2025-03-04",
+    "idAnticipo": 22,
+    "importe": 25500
+  },
+  {
+    "_id": "6867387a1892d6003c243436",
+    "idAbono": 5653,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2024-12-24",
+    "idAnticipo": 7,
+    "importe": 1660
+  },
+  {
+    "_id": "68673b7a1892d6003c2434d0",
+    "idAbono": 5654,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2024-11-28",
+    "idAnticipo": 8,
+    "importe": 4080
+  },
+  {
+    "_id": "68673f0a1892d6003c2436ac",
+    "idAbono": 5656,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2024-11-13",
+    "idAnticipo": 4,
+    "importe": 5580
+  },
+  {
+    "_id": "686744b21892d6003c243821",
+    "idAbono": 5659,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2024-10-28",
+    "idAnticipo": 5,
+    "importe": 10740
+  },
+  {
+    "_id": "686745881892d6003c2438ba",
+    "idAbono": 5660,
+    "fechaAnterior": "2025-07-03",
+    "fechaNueva": "2024-12-04",
+    "idAnticipo": 6,
+    "importe": 12470
+  },
+  {
+    "_id": "687a906f5ee6e11d80cd1cb7",
+    "idAbono": 5791,
+    "fechaAnterior": "2025-07-18",
+    "fechaNueva": "2025-02-25",
+    "idAnticipo": 19,
+    "importe": 10751.26
+  },
+  {
+    "_id": "687a906f5ee6e11d80cd1cba",
+    "idAbono": 5792,
+    "fechaAnterior": "2025-07-18",
+    "fechaNueva": "2025-02-25",
+    "idAnticipo": 19,
+    "importe": 11493.86
+  },
+  {
+    "_id": "68a383cffa0b9a003c67756a",
+    "idAbono": 6060,
+    "fechaAnterior": "2025-08-18",
+    "fechaNueva": "2025-02-24",
+    "idAnticipo": 20,
+    "importe": 3306
+  },
+  {
+    "_id": "68a383cffa0b9a003c67756c",
+    "idAbono": 6061,
+    "fechaAnterior": "2025-08-18",
+    "fechaNueva": "2025-02-24",
+    "idAnticipo": 20,
+    "importe": 5394
+  },
+  {
+    "_id": "68e4139206774d003c94b970",
+    "idAbono": 6677,
+    "fechaAnterior": "2025-10-06",
+    "fechaNueva": "2025-07-17",
+    "idAnticipo": 37,
+    "importe": 3960
+  },
+  {
+    "_id": "68e4139206774d003c94b972",
+    "idAbono": 6678,
+    "fechaAnterior": "2025-10-06",
+    "fechaNueva": "2025-07-17",
+    "idAnticipo": 37,
+    "importe": 11220
+  },
+  {
+    "_id": "68f02c994d80c3003c1857a5",
+    "idAbono": 6723,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-05",
+    "idAnticipo": 15,
+    "importe": 81900
+  },
+  {
+    "_id": "68f036264d80c3003c185922",
+    "idAbono": 6724,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-10",
+    "idAnticipo": 18,
+    "importe": 11040
+  },
+  {
+    "_id": "68f036264d80c3003c185924",
+    "idAbono": 6725,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-10",
+    "idAnticipo": 18,
+    "importe": 10800
+  },
+  {
+    "_id": "68f03e8b4d80c3003c185d06",
+    "idAbono": 6726,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-06",
+    "idAnticipo": 16,
+    "importe": 3780
+  },
+  {
+    "_id": "68f03e8b4d80c3003c185d08",
+    "idAbono": 6727,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-06",
+    "idAnticipo": 16,
+    "importe": 9660
+  },
+  {
+    "_id": "68f046984d80c3003c185e70",
+    "idAbono": 6732,
+    "fechaAnterior": "2025-10-15",
+    "fechaNueva": "2025-02-27",
+    "idAnticipo": 24,
+    "importe": 9222
+  },
+  {
+    "_id": "693afe89aed007003cfe33a3",
+    "idAbono": 7517,
+    "fechaAnterior": "2025-12-11",
+    "fechaNueva": "2024-11-26",
+    "idAnticipo": 3,
+    "importe": 14400
+  },
+  {
+    "_id": "693afe89aed007003cfe33a5",
+    "idAbono": 7518,
+    "fechaAnterior": "2025-12-11",
+    "fechaNueva": "2024-11-26",
+    "idAnticipo": 3,
+    "importe": 6120
+  },
+  {
+    "_id": "693afed1aed007003cfe3449",
+    "idAbono": 7520,
+    "fechaAnterior": "2025-12-11",
+    "fechaNueva": "2024-11-19",
+    "idAnticipo": 2,
+    "importe": 10260
+  },
+  {
+    "_id": "693afed1aed007003cfe3447",
+    "idAbono": 7519,
+    "fechaAnterior": "2025-12-11",
+    "fechaNueva": "2024-11-19",
+    "idAnticipo": 2,
+    "importe": 4140
+  },
+  {
+    "_id": "69b1b132d6f8f20085d4a6be",
+    "idAbono": 9288,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-26",
+    "idAnticipo": 66,
+    "importe": 16296.14
+  },
+  {
+    "_id": "69b1b15ad6f8f20085d4a6eb",
+    "idAbono": 9289,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-04",
+    "idAnticipo": 57,
+    "importe": 5040
+  },
+  {
+    "_id": "69b1b1c0d6f8f20085d4a72c",
+    "idAbono": 9290,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-03",
+    "idAnticipo": 54,
+    "importe": 16920
+  },
+  {
+    "_id": "69b1b203d6f8f20085d4a75e",
+    "idAbono": 9291,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-05",
+    "idAnticipo": 56,
+    "importe": 35400
+  },
+  {
+    "_id": "69b1b5a9d6f8f20085d4ac71",
+    "idAbono": 9292,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-16",
+    "idAnticipo": 62,
+    "importe": 21798
+  },
+  {
+    "_id": "69b1b983d6f8f20085d4b3a9",
+    "idAbono": 9293,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-02-16",
+    "idAnticipo": 63,
+    "importe": 55200
+  },
+  {
+    "_id": "69b1bcb7d6f8f20085d4bc89",
+    "idAbono": 9295,
+    "fechaAnterior": "2026-03-11",
+    "fechaNueva": "2026-01-31",
+    "idAnticipo": 59,
+    "importe": 1000
+  },
+  {
+    "_id": "69cc4b667e62550085f0b7f0",
+    "idAbono": 9925,
+    "fechaAnterior": "2026-03-31",
+    "fechaNueva": "2025-08-01",
+    "idAnticipo": 39,
+    "importe": 14360
+  },
+  {
+    "_id": "69cc4b667e62550085f0b7f2",
+    "idAbono": 9926,
+    "fechaAnterior": "2026-03-31",
+    "fechaNueva": "2025-08-01",
+    "idAnticipo": 39,
+    "importe": 8640
+  },
+  {
+    "_id": "69cc4beb7e62550085f0b874",
+    "idAbono": 9927,
+    "fechaAnterior": "2026-03-31",
+    "fechaNueva": "2025-05-08",
+    "idAnticipo": 32,
+    "importe": 21420
+  },
+  {
+    "_id": "69d4589c6feca100854be2f8",
+    "idAbono": 9997,
+    "fechaAnterior": "2026-04-06",
+    "fechaNueva": "2026-01-29",
+    "idAnticipo": 52,
+    "importe": 3514
+  },
+  {
+    "_id": "69d458b46feca100854be32e",
+    "idAbono": 9998,
+    "fechaAnterior": "2026-04-06",
+    "fechaNueva": "2026-01-19",
+    "idAnticipo": 58,
+    "importe": 2334
+  },
+  {
+    "_id": "69d5671a6feca100854c13ca",
+    "idAbono": 10311,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 134570.46
+  },
+  {
+    "_id": "69d5671a6feca100854c13cc",
+    "idAbono": 10313,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 1605.02
+  },
+  {
+    "_id": "69d5671a6feca100854c13ce",
+    "idAbono": 10312,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 83877.82
+  },
+  {
+    "_id": "69d5671a6feca100854c13d5",
+    "idAbono": 10314,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 29000
+  },
+  {
+    "_id": "69d5671a6feca100854c13d3",
+    "idAbono": 10315,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 10025.12
+  },
+  {
+    "_id": "69d5671a6feca100854c13db",
+    "idAbono": 10318,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 1200
+  },
+  {
+    "_id": "69d5671a6feca100854c13d9",
+    "idAbono": 10317,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 18550.23
+  },
+  {
+    "_id": "69d5671a6feca100854c13d0",
+    "idAbono": 10320,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 35471.94
+  },
+  {
+    "_id": "69d5671a6feca100854c13df",
+    "idAbono": 10319,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 3600
+  },
+  {
+    "_id": "69d5671a6feca100854c13d7",
+    "idAbono": 10316,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 21332.77
+  },
+  {
+    "_id": "69d5671a6feca100854c13dd",
+    "idAbono": 10322,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 34627.29
+  },
+  {
+    "_id": "69d5671a6feca100854c13e1",
+    "idAbono": 10321,
+    "fechaAnterior": "2026-04-07",
+    "fechaNueva": "2025-12-24",
+    "idAnticipo": 48,
+    "importe": 667187.1
+  },
+  {
+    "_id": "69e10de2b348f60085c0c96d",
+    "idAbono": 10416,
+    "fechaAnterior": "2026-04-16",
+    "fechaNueva": "2026-02-11",
+    "idAnticipo": 64,
+    "importe": 5806.08
+  },
+  {
+    "_id": "69e10de2b348f60085c0c970",
+    "idAbono": 10417,
+    "fechaAnterior": "2026-04-16",
+    "fechaNueva": "2026-02-11",
+    "idAnticipo": 64,
+    "importe": 8709.12
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1a4",
+    "idAbono": 10546,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 3080
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1aa",
+    "idAbono": 10548,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 1000
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1a8",
+    "idAbono": 10549,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 100
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1a6",
+    "idAbono": 10547,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 5281.44
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1ae",
+    "idAbono": 10550,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 3080.84
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1ac",
+    "idAbono": 10551,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 4632.6
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1b3",
+    "idAbono": 10553,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 16944.62
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1b1",
+    "idAbono": 10552,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 4070.21
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1b5",
+    "idAbono": 10554,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 1870.66
+  },
+  {
+    "_id": "69e7e2fa2b8e7c008520f1b7",
+    "idAbono": 10555,
+    "fechaAnterior": "2026-04-21",
+    "fechaNueva": "2025-04-07",
+    "idAnticipo": 29,
+    "importe": 716.63
+  },
+  {
+    "_id": "69e8ecb92b8e7c0085210917",
+    "idAbono": 10556,
+    "fechaAnterior": "2026-04-22",
+    "fechaNueva": "2025-12-18",
+    "idAnticipo": 47,
+    "importe": 12220
+  },
+  {
+    "_id": "69e8ecb92b8e7c0085210915",
+    "idAbono": 10557,
+    "fechaAnterior": "2026-04-22",
+    "fechaNueva": "2025-12-18",
+    "idAnticipo": 47,
+    "importe": 1200
+  },
+  {
+    "_id": "69e8ed472b8e7c0085210a2c",
+    "idAbono": 10558,
+    "fechaAnterior": "2026-04-22",
+    "fechaNueva": "2025-08-01",
+    "idAnticipo": 42,
+    "importe": 10920
+  },
+  {
+    "_id": "69e8eeb42b8e7c0085210bb1",
+    "idAbono": 10559,
+    "fechaAnterior": "2026-04-22",
+    "fechaNueva": "2025-08-01",
+    "idAnticipo": 41,
+    "importe": 10080
+  },
+  {
+    "_id": "69fcf04e0e406800851258c2",
+    "idAbono": 11375,
+    "fechaAnterior": "2026-05-07",
+    "fechaNueva": "2026-02-01",
+    "idAnticipo": 65,
+    "importe": 4520
+  },
+  {
+    "_id": "69fcf04e0e406800851258c0",
+    "idAbono": 11374,
+    "fechaAnterior": "2026-05-07",
+    "fechaNueva": "2026-02-01",
+    "idAnticipo": 65,
+    "importe": 480
+  },
+  {
+    "_id": "69fcf04e0e406800851258be",
+    "idAbono": 11373,
+    "fechaAnterior": "2026-05-07",
+    "fechaNueva": "2026-02-01",
+    "idAnticipo": 65,
+    "importe": 38500
+  },
+  {
+    "_id": "6a063a5197edab0085ad542c",
+    "idAbono": 11481,
+    "fechaAnterior": "2026-05-14",
+    "fechaNueva": "2026-04-29",
+    "idAnticipo": 70,
+    "importe": 14520
+  },
+  {
+    "_id": "6a4fde4b675b620085f0719f",
+    "idAbono": 12220,
+    "fechaAnterior": "2026-07-09",
+    "fechaNueva": "2026-06-16",
+    "idAnticipo": 73,
+    "importe": 29720
+  },
+  {
+    "_id": "6a4fde4b675b620085f071a1",
+    "idAbono": 12221,
+    "fechaAnterior": "2026-07-09",
+    "fechaNueva": "2026-06-16",
+    "idAnticipo": 73,
+    "importe": 12500
+  },
+  {
+    "_id": "6a834336802438008616dbff",
+    "idAbono": 12813,
+    "fechaAnterior": "2026-08-17",
+    "fechaNueva": "2026-07-24",
+    "idAnticipo": 74,
+    "importe": 31920
+  },
+  {
+    "_id": "6a8e296709d4c8008533779a",
+    "idAbono": 12890,
+    "fechaAnterior": "2026-08-25",
+    "fechaNueva": "2026-08-14",
+    "idAnticipo": 77,
+    "importe": 21600
+  },
+  {
+    "_id": "6a95e68f9b66990085aa9a22",
+    "idAbono": 12956,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-08-05",
+    "idAnticipo": 75,
+    "importe": 5280
+  },
+  {
+    "_id": "6a95e68f9b66990085aa9a24",
+    "idAbono": 12957,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-08-05",
+    "idAnticipo": 75,
+    "importe": 16140
+  },
+  {
+    "_id": "6a95e69c9b66990085aa9a47",
+    "idAbono": 12958,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-08-07",
+    "idAnticipo": 76,
+    "importe": 2960
+  },
+  {
+    "_id": "6a95e6d89b66990085aa9a74",
+    "idAbono": 12959,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-03-24",
+    "idAnticipo": 69,
+    "importe": 42838.8
+  },
+  {
+    "_id": "6a95e70f9b66990085aa9a9c",
+    "idAbono": 12961,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-03-19",
+    "idAnticipo": 68,
+    "importe": 10828
+  },
+  {
+    "_id": "6a95e70f9b66990085aa9a9e",
+    "idAbono": 12960,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-03-19",
+    "idAnticipo": 68,
+    "importe": 7200
+  },
+  {
+    "_id": "6a95e70f9b66990085aa9aa1",
+    "idAbono": 12962,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-03-19",
+    "idAnticipo": 68,
+    "importe": 3655.15
+  },
+  {
+    "_id": "6a95e7299b66990085aa9acf",
+    "idAbono": 12963,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-03-19",
+    "idAnticipo": 67,
+    "importe": 19662
+  },
+  {
+    "_id": "6a95e74f9b66990085aa9b19",
+    "idAbono": 12965,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-02-03",
+    "idAnticipo": 55,
+    "importe": 2340
+  },
+  {
+    "_id": "6a95e74f9b66990085aa9b1b",
+    "idAbono": 12964,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-02-03",
+    "idAnticipo": 55,
+    "importe": 32100
+  },
+  {
+    "_id": "6a95e74f9b66990085aa9b1d",
+    "idAbono": 12966,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2026-02-03",
+    "idAnticipo": 55,
+    "importe": 9450
+  },
+  {
+    "_id": "6a95e77c9b66990085aa9b61",
+    "idAbono": 12967,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-12-27",
+    "idAnticipo": 51,
+    "importe": 2340
+  },
+  {
+    "_id": "6a95e77c9b66990085aa9b63",
+    "idAbono": 12968,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-12-27",
+    "idAnticipo": 51,
+    "importe": 8145
+  },
+  {
+    "_id": "6a95e78f9b66990085aa9b9a",
+    "idAbono": 12969,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-10-27",
+    "idAnticipo": 45,
+    "importe": 9976
+  },
+  {
+    "_id": "6a95e79f9b66990085aa9bd1",
+    "idAbono": 12970,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-09-10",
+    "idAnticipo": 46,
+    "importe": 2559
+  },
+  {
+    "_id": "6a95e7b79b66990085aa9c08",
+    "idAbono": 12971,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-08-11",
+    "idAnticipo": 43,
+    "importe": 2440
+  },
+  {
+    "_id": "6a95e7ce9b66990085aa9c3f",
+    "idAbono": 12972,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-08-01",
+    "idAnticipo": 38,
+    "importe": 760
+  },
+  {
+    "_id": "6a95e8159b66990085aa9c82",
+    "idAbono": 12973,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-07-09",
+    "idAnticipo": 35,
+    "importe": 8640
+  },
+  {
+    "_id": "6a95e82e9b66990085aa9cbb",
+    "idAbono": 12974,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-04-29",
+    "idAnticipo": 30,
+    "importe": 6960
+  },
+  {
+    "_id": "6a95e83f9b66990085aa9cf3",
+    "idAbono": 12975,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-04-08",
+    "idAnticipo": 31,
+    "importe": 2086
+  },
+  {
+    "_id": "6a95e86b9b66990085aa9d3a",
+    "idAbono": 12977,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-03-14",
+    "idAnticipo": 26,
+    "importe": 5580
+  },
+  {
+    "_id": "6a95e86b9b66990085aa9d3c",
+    "idAbono": 12976,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-03-14",
+    "idAnticipo": 26,
+    "importe": 9780
+  },
+  {
+    "_id": "6a95e86b9b66990085aa9d38",
+    "idAbono": 12978,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-03-14",
+    "idAnticipo": 26,
+    "importe": 2520
+  },
+  {
+    "_id": "6a95e8bf9b66990085aa9d87",
+    "idAbono": 12979,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-03-07",
+    "idAnticipo": 72,
+    "importe": 21348
+  },
+  {
+    "_id": "6a95e8bf9b66990085aa9d85",
+    "idAbono": 12980,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-03-07",
+    "idAnticipo": 72,
+    "importe": 6300
+  },
+  {
+    "_id": "6a95e90b9b66990085aa9dcf",
+    "idAbono": 12982,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-02-25",
+    "idAnticipo": 21,
+    "importe": 3157.73
+  },
+  {
+    "_id": "6a95e90b9b66990085aa9dcd",
+    "idAbono": 12981,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-02-25",
+    "idAnticipo": 21,
+    "importe": 2564.74
+  },
+  {
+    "_id": "6a95e93a9b66990085aa9e09",
+    "idAbono": 12983,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-30",
+    "idAnticipo": 12,
+    "importe": 5520.42
+  },
+  {
+    "_id": "6a95e93a9b66990085aa9e0c",
+    "idAbono": 12984,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-30",
+    "idAnticipo": 12,
+    "importe": 1799.58
+  },
+  {
+    "_id": "6a95e9609b66990085aa9e45",
+    "idAbono": 12985,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-30",
+    "idAnticipo": 10,
+    "importe": 100
+  },
+  {
+    "_id": "6a95e9609b66990085aa9e47",
+    "idAbono": 12986,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-30",
+    "idAnticipo": 10,
+    "importe": 8100
+  },
+  {
+    "_id": "6a95e9739b66990085aa9e7e",
+    "idAbono": 12987,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-28",
+    "idAnticipo": 11,
+    "importe": 2000
+  },
+  {
+    "_id": "6a95e9899b66990085aa9eb0",
+    "idAbono": 12988,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-27",
+    "idAnticipo": 71,
+    "importe": 21812
+  },
+  {
+    "_id": "6a95e9a89b66990085aa9ee1",
+    "idAbono": 12989,
+    "fechaAnterior": "2026-08-31",
+    "fechaNueva": "2025-01-09",
+    "idAnticipo": 9,
+    "importe": 200000
+  }
+]

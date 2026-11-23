@@ -1,0 +1,207 @@
+{
+  "comppago": {
+    "_id": "6abea0098237470085794967",
+    "is_active": "Si",
+    "clientes": [
+      "669acd3dff00a3005cbc2e20"
+    ],
+    "colaboradores": [
+      "663414f5eb2eaf73b7f1a8fe"
+    ],
+    "empresas": [
+      "66102d9a9d00a30057f0e189"
+    ],
+    "respuestaFacturama": [],
+    "respuestaFacturamaCancel": [],
+    "cuentasClientes": [],
+    "cuentasEmpresas": [
+      "683a1c2e71bd4f003c317a05"
+    ],
+    "fecha": "2026-10-25",
+    "observaciones": "NA",
+    "timbre": "No",
+    "cfdiType": "P",
+    "serie": "COMP",
+    "folio": 267,
+    "expeditionPlace": "53470",
+    "rfcEmpresa": "CHA131031CV7",
+    "nombreEmpresa": "COMERCIALIZADORA HATZLAJA",
+    "regFiscalEmpresa": "601",
+    "cfdiUse": "CP01",
+    "paymentForm": "03",
+    "total": 15729.6,
+    "currency": "MXN",
+    "createdAt": "2026-10-01T18:01:45.804Z",
+    "updatedAt": "2026-10-01T18:01:45.804Z",
+    "idCompPago": 260
+  },
+  "pagosfacturas": [
+    {
+      "_id": "6abea00a8237470085794970",
+      "is_active": "Si",
+      "clientes": [
+        "669acd3dff00a3005cbc2e20"
+      ],
+      "colaboradores": [
+        "663414f5eb2eaf73b7f1a8fe"
+      ],
+      "empresas": [
+        "66102d9a9d00a30057f0e189"
+      ],
+      "facturas": [
+        "6ab30a858de54e0085a429e5"
+      ],
+      "compPago": [
+        "6abea0098237470085794967"
+      ],
+      "fecha": "2026-10-25",
+      "PartialityNumber": 1,
+      "PreviousBalanceAmount": 15729.6,
+      "AmountPaid": 15729.6,
+      "ImpSaldoInsoluto": 0,
+      "createdAt": "2026-10-01T18:01:46.295Z",
+      "updatedAt": "2026-10-01T18:01:46.295Z"
+    }
+  ],
+  "facturas": [
+    {
+      "_id": "6ab30a858de54e0085a429e5",
+      "is_active": "Si",
+      "clientes": [
+        "669acd3dff00a3005cbc2e20"
+      ],
+      "colaboradores": [
+        "663414f5eb2eaf73b7f1a8fe"
+      ],
+      "empresas": [
+        "66102d9a9d00a30057f0e189"
+      ],
+      "respuestaFacturama": [
+        {
+          "Id": "Rw6AcIou8tGlO_jAchxlqg2",
+          "CfdiType": "ingreso",
+          "Type": "I - Ingreso",
+          "Serie": "F",
+          "Folio": "1942",
+          "Date": "2026-09-22T17:08:54",
+          "CertNumber": "00001000000720191430",
+          "PaymentTerms": "99 - Por definir",
+          "PaymentConditions": "NA",
+          "PaymentMethod": "PPD - Pago en parcialidades ó diferido",
+          "ExpeditionPlace": "53470",
+          "ExchangeRate": 0,
+          "Currency": "MXN - Peso Mexicano",
+          "Subtotal": 13560,
+          "Discount": 0,
+          "Total": 15729.6,
+          "Observations": "",
+          "Issuer": {
+            "FiscalRegime": "601 - General de Ley Personas Morales",
+            "Rfc": "CHA131031CV7",
+            "TaxName": "COMERCIALIZADORA HATZLAJA",
+            "Phone": ""
+          },
+          "Receiver": {
+            "Rfc": "EVO0202065L4",
+            "Name": "EVOLUTION COMPANY"
+          },
+          "Items": [
+            {
+              "ProductCode": "53101802",
+              "IdentificationNumber": "AF24118",
+              "UnitCode": "PZ",
+              "Discount": 0,
+              "CuentaPredial": "",
+              "Quantity": 24,
+              "Unit": "PZ - PZ",
+              "Description": "AF24118 CHAMARRA CABALLERO REFLEJANTE NASA",
+              "UnitValue": 290,
+              "Total": 6960
+            },
+            {
+              "ProductCode": "53101802",
+              "IdentificationNumber": "AF25314",
+              "UnitCode": "PZ",
+              "Discount": 0,
+              "CuentaPredial": "",
+              "Quantity": 24,
+              "Unit": "PZ - PZ",
+              "Description": "AF25314 CHAMARRA CABALLERO VARSITY (ORCA) / CH  - EG",
+              "UnitValue": 275,
+              "Total": 6600
+            }
+          ],
+          "Taxes": [
+            {
+              "Total": 2169.6,
+              "Name": "IVA",
+              "Rate": 16,
+              "Base": 13560,
+              "Type": "transferred",
+              "Factor": "Tasa"
+            }
+          ],
+          "Complement": {
+            "TaxStamp": {
+              "Uuid": "2c1cea77-59f8-4b6d-9553-0bff9ba3b470",
+              "Date": "2026-09-22T17:08:54",
+              "CfdiSign": "Se+v4mJ6qHlJ6Bu5BugUs1s/3QnAlWkFtVJDLFScnKqYE8RTCJCMVgfPTR40izVKvtRRHvco8Rntar5oTGuH4Svj67Hn1fdIIR6R5OqkL8hj6cOEtREWaKQMN9ssEQgwcvNa4WEt8H9p3mgTjZik+m4RrXbAoFAGnk9Kn/rtkSjLcAjPG/HbJBqSRpdTgeM2HXWQV/W33TEA1GKisHpid62uC2WFiNt+1eN9FAUcfJncmyE6ID8WRRO+omb2o5hFrYyyG28AkTy+b7qD3OEKgS2fqYJh1ocVJAeAIS2ScwLEWm9Y8VYg56lXaXbL6eM/hlhdHB1BwAFDctKHqM59yw==",
+              "SatCertNumber": "00001000000719545303",
+              "SatSign": "KXc9UFedwacbq2FErJ+Re7hg2b/VtRrsyt5K/xWAaMxKcdM3UM4eT/7bJDf9kAfuv0yAXvyGJCfV3xP88lfkvE/rMdQEfZS8weSi+Cbb6Xtk17txPzbCynCxnkKLs39dDedKShYf1rP3MDu0G5p/W1BgEA49TBVG49pdmDmnDorO0miCYxnIHQTyMgJUuI89jc7Vq7cJQzzJvYcd2gipMeNY7oFteRMNVdoJKS2am9lhrgflt78d9HxLd1XWe15vA0/mg010NOvXEgHxNIGAAReYK3AbuuLHbtdUEc6IAul18vduM/guomno5bMS9YuiVq4/U+SecRydVRG+1gbZSA==",
+              "RfcProvCertif": "LSO1306189R5",
+              "AutNumProvCertif": ""
+            }
+          },
+          "Status": "active",
+          "OriginalString": "||1.1|2c1cea77-59f8-4b6d-9553-0bff9ba3b470|2026-09-22T17:08:54|LSO1306189R5|Se+v4mJ6qHlJ6Bu5BugUs1s/3QnAlWkFtVJDLFScnKqYE8RTCJCMVgfPTR40izVKvtRRHvco8Rntar5oTGuH4Svj67Hn1fdIIR6R5OqkL8hj6cOEtREWaKQMN9ssEQgwcvNa4WEt8H9p3mgTjZik+m4RrXbAoFAGnk9Kn/rtkSjLcAjPG/HbJBqSRpdTgeM2HXWQV/W33TEA1GKisHpid62uC2WFiNt+1eN9FAUcfJncmyE6ID8WRRO+omb2o5hFrYyyG28AkTy+b7qD3OEKgS2fqYJh1ocVJAeAIS2ScwLEWm9Y8VYg56lXaXbL6eM/hlhdHB1BwAFDctKHqM59yw==|00001000000719545303||"
+        }
+      ],
+      "respuestaFacturamaCancel": [],
+      "descuentoConcepto1": "NA",
+      "descuentoConcepto2": "NA",
+      "pagado": "Si",
+      "numeroPagos": 1,
+      "fecha": "2026-09-22",
+      "observaciones": "NA",
+      "totalCantidad": 48,
+      "subTotal": 13560,
+      "iva": 2169.6,
+      "total": 15729.6,
+      "descuentoPorcentaje1": 0,
+      "descuentoNumero1": 0,
+      "descuentoPorcentaje2": 0,
+      "descuentoNumero2": 0,
+      "timbre": "Si",
+      "currency": "MXN",
+      "cfdiType": "I",
+      "serie": "F",
+      "expeditionPlace": "53470",
+      "rfcEmpresa": "CHA131031CV7",
+      "nombreEmpresa": "COMERCIALIZADORA HATZLAJA",
+      "regFiscalEmpresa": "601",
+      "condicionesPagoSATCliente": "NA",
+      "formaPagoSATCliente": "99",
+      "metodoPagoSATCliente": "PPD",
+      "rfcCliente": "EVO0202065L4",
+      "nombreCliente": "EVOLUTION COMPANY",
+      "usoCFDICliente": "G01",
+      "regFiscalCliente": 601,
+      "cpCliente": "75855",
+      "abonos": 15729.6,
+      "saldo": 0,
+      "folio": 1942,
+      "createdAt": "2026-09-22T23:08:53.399Z",
+      "updatedAt": "2026-10-01T18:01:46.361Z",
+      "idFactura": 1944,
+      "cadenaSAT": "||1.1|2c1cea77-59f8-4b6d-9553-0bff9ba3b470|2026-09-22T17:08:54|LSO1306189R5|Se+v4mJ6qHlJ6Bu5BugUs1s/3QnAlWkFtVJDLFScnKqYE8RTCJCMVgfPTR40izVKvtRRHvco8Rntar5oTGuH4Svj67Hn1fdIIR6R5OqkL8hj6cOEtREWaKQMN9ssEQgwcvNa4WEt8H9p3mgTjZik+m4RrXbAoFAGnk9Kn/rtkSjLcAjPG/HbJBqSRpdTgeM2HXWQV/W33TEA1GKisHpid62uC2WFiNt+1eN9FAUcfJncmyE6ID8WRRO+omb2o5hFrYyyG28AkTy+b7qD3OEKgS2fqYJh1ocVJAeAIS2ScwLEWm9Y8VYg56lXaXbL6eM/hlhdHB1BwAFDctKHqM59yw==|00001000000719545303||",
+      "fechaCertificacion": "2026-09-22T17:08:54",
+      "folioFiscal": "2c1cea77-59f8-4b6d-9553-0bff9ba3b470",
+      "idFacturama": "Rw6AcIou8tGlO_jAchxlqg2",
+      "numeroSerieCertificadoSAT": "00001000000719545303",
+      "rfcProvCertif": "LSO1306189R5",
+      "selloDigital": "Se+v4mJ6qHlJ6Bu5BugUs1s/3QnAlWkFtVJDLFScnKqYE8RTCJCMVgfPTR40izVKvtRRHvco8Rntar5oTGuH4Svj67Hn1fdIIR6R5OqkL8hj6cOEtREWaKQMN9ssEQgwcvNa4WEt8H9p3mgTjZik+m4RrXbAoFAGnk9Kn/rtkSjLcAjPG/HbJBqSRpdTgeM2HXWQV/W33TEA1GKisHpid62uC2WFiNt+1eN9FAUcfJncmyE6ID8WRRO+omb2o5hFrYyyG28AkTy+b7qD3OEKgS2fqYJh1ocVJAeAIS2ScwLEWm9Y8VYg56lXaXbL6eM/hlhdHB1BwAFDctKHqM59yw==",
+      "selloDigitalSAT": "KXc9UFedwacbq2FErJ+Re7hg2b/VtRrsyt5K/xWAaMxKcdM3UM4eT/7bJDf9kAfuv0yAXvyGJCfV3xP88lfkvE/rMdQEfZS8weSi+Cbb6Xtk17txPzbCynCxnkKLs39dDedKShYf1rP3MDu0G5p/W1BgEA49TBVG49pdmDmnDorO0miCYxnIHQTyMgJUuI89jc7Vq7cJQzzJvYcd2gipMeNY7oFteRMNVdoJKS2am9lhrgflt78d9HxLd1XWe15vA0/mg010NOvXEgHxNIGAAReYK3AbuuLHbtdUEc6IAul18vduM/guomno5bMS9YuiVq4/U+SecRydVRG+1gbZSA==",
+      "status": "active"
+    }
+  ]
+}

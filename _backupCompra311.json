@@ -1,0 +1,51 @@
+{
+  "comprasacumulados": [
+    {
+      "_id": "6ac038cfc15ca60085f6552a",
+      "embarques": [],
+      "compras": [
+        "6ac038cec15ca60085f65526"
+      ],
+      "articulosEmbarques": [],
+      "articulos": [
+        "6876a67c507755003c0cae80"
+      ],
+      "areas": [
+        "6201b18c0f94f86068a741c0"
+      ],
+      "fecha": "2026-10-02",
+      "cantidad": 312,
+      "precio": 0,
+      "tipoCambio": 19,
+      "precioMX": 0,
+      "createdAt": "2026-10-02T23:05:51.288Z",
+      "updatedAt": "2026-10-02T23:05:51.288Z"
+    }
+  ],
+  "notacxp": {
+    "_id": "6ac038cfc15ca60085f6552e",
+    "is_active": "Si",
+    "embarques": [],
+    "compras": [
+      "6ac038cec15ca60085f65526"
+    ],
+    "proveedores": [
+      "662ae446539cb83628052e0e"
+    ],
+    "calidad": "No",
+    "compraDirecta": "Si",
+    "total_cantidad": 312,
+    "total_costo": 0,
+    "saldo": 0,
+    "fecha": "2026-10-02",
+    "createdAt": "2026-10-02T23:05:51.367Z",
+    "updatedAt": "2026-10-02T23:05:51.367Z",
+    "idNotasCxP": 328
+  },
+  "proveedor": {
+    "_id": "662ae446539cb83628052e0e",
+    "nombre": "ABY ASSA",
+    "cargos": 5337572,
+    "saldo": 632892
+  }
+}

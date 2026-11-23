@@ -1,0 +1,63 @@
+{
+  "name": "americanfly-back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "scripts": {
+    "build": "npm run prisma:generate:all",
+    "start": "npm run prisma:generate:all && node app.js",
+    "dev": "npm run prisma:generate:all && nodemon app.js",
+    "postinstall": "npm run prisma:generate:baileys || echo Warning: Could not generate baileys-mongo Prisma client",
+    "prisma:generate": "prisma generate && echo Prisma client generated successfully",
+    "prisma:generate:baileys": "cd node_modules/baileys-mongo && npx prisma generate && echo Baileys-mongo Prisma client generated successfully",
+    "prisma:generate:all": "npm run prisma:generate && npm run prisma:generate:baileys"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "prisma": {
+    "schema": "prisma/scheme.prisma"
+  },
+  "dependencies": {
+    "@hapi/boom": "^10.0.1",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "@prisma/client": "^5.22.0",
+    "@sendgrid/mail": "^8.1.1",
+    "@whiskeysockets/baileys": "6.7.18",
+    "axios": "^1.6.7",
+    "baileys-mongo": "^1.5.0",
+    "bcrypt": "^5.0.1",
+    "celebrate": "^12.2.0",
+    "cloudinary": "^1.28.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.3",
+    "express-rate-limit": "^8.7.4",
+    "groq-sdk": "^1.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "jspdf": "^2.5.1",
+    "jspdf-autotable": "^3.5.23",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.44",
+    "mongoose": "^5.13.14",
+    "mongoose-sequence": "^5.3.1",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.4",
+    "netlify-lambda": "^2.0.15",
+    "node-cron": "^3.0.3",
+    "nodejs-base64-encode": "^1.1.0",
+    "pino": "^9.7.0",
+    "prisma": "^5.22.0",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "sendgrid-mail": "0.0.2",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
