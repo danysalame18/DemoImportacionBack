@@ -5,7 +5,7 @@ module.exports = {
 sgMail.setApiKey(process.env.MAIL_API_KEY)
 const msg = {
   to: receiver, 
-  from: 'americanFly@lynqro.com', 
+  from: 'demoImportacion@lynqro.com', 
   subject: subject,
   text: text,
   html: text,

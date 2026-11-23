@@ -113,7 +113,7 @@ const CATALOGO_PARA_META = [
     cuerpo:
       'Hola {{1}}, te informamos que tu saldo actual es de {{2}}.\n' +
       'Si deseas recibir tu estado de cuenta, responde a este mensaje con la palabra "Estado de cuenta".',
-    pie: "American Fly",
+    pie: "Demo Importacion",
     botones: [{ tipo: "QUICK_REPLY", texto: "Estado de cuenta" }],
     ejemplo: { "{{1}}": "Dani Salame", "{{2}}": "$15,000.00 USD" },
     usadaEn: "Cron saldoSemanal / saldoSemanalMorosos (ClientesController.js)",
@@ -126,7 +126,7 @@ const CATALOGO_PARA_META = [
     cuerpo:
       "Hola {{1}}, adjuntamos tu Estado de Cuenta actualizado. " +
       "Si tienes alguna duda, estamos a tus órdenes.",
-    pie: "American Fly",
+    pie: "Demo Importacion",
     botones: [],
     ejemplo: { "{{1}}": "Dani Salame", header: "EdoCta.pdf" },
     usadaEn: "Entrega de Estado de Cuenta (chatbot fuera de ventana / front SendPDF)",
@@ -138,7 +138,7 @@ const CATALOGO_PARA_META = [
     encabezado: "DOCUMENTO (PDF)",
     // Meta no permite que el cuerpo termine en variable: cerramos con texto fijo.
     cuerpo: "Hola {{1}}, te compartimos el documento solicitado: {{2}}. Quedamos atentos a cualquier duda.",
-    pie: "American Fly",
+    pie: "Demo Importacion",
     botones: [],
     ejemplo: { "{{1}}": "Dani Salame", "{{2}}": "Inventario", header: "Inventario.pdf" },
     usadaEn:
@@ -152,7 +152,7 @@ const CATALOGO_PARA_META = [
     // Meta no permite "todo el mensaje en una variable" ni empezar/terminar con
     // variable: el dato dinámico va en {{1}}, enmarcado con texto fijo.
     cuerpo: "Hola, te informamos lo siguiente: {{1}}. Para cualquier duda, estamos a tus órdenes.",
-    pie: "American Fly",
+    pie: "Demo Importacion",
     botones: [],
     ejemplo: { "{{1}}": "tu pedido #1234 ya está listo para entrega" },
     usadaEn: "Fallback de SendMsg proactivo fuera de la ventana de 24 h",
@@ -163,10 +163,10 @@ const CATALOGO_PARA_META = [
     idioma: LANG,
     encabezado: "Ninguno",
     cuerpo:
-      "Hola, gracias por contactar a American Fly. " +
+      "Hola, gracias por contactar a Demo Importacion. " +
       "Selecciona una opción o escríbela:\n\n" +
       "• Saldo\n• Estado de cuenta\n• Existencia\n• Inventario\n• Disponible",
-    pie: "American Fly",
+    pie: "Demo Importacion",
     botones: [
       { tipo: "QUICK_REPLY", texto: "Saldo" },
       { tipo: "QUICK_REPLY", texto: "Estado de cuenta" },

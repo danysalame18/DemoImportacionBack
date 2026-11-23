@@ -187,7 +187,7 @@ module.exports = {
       ).join("\n");
 
       const systemPrompt = `
-Eres el asistente de American Fly, una empresa de ropa que vende a mayoreo y en tiendas propias.
+Eres el asistente de Demo Importacion, una empresa de ropa que vende a mayoreo y en tiendas propias.
 Respondes en espanol, claro y directo, con numeros concretos. Usa los datos de abajo.
 Si te preguntan algo que no esta en los datos, dilo con honestidad en vez de inventar.
 Los montos estan en pesos mexicanos.

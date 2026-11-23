@@ -1,4 +1,4 @@
-// Herramientas de consulta del MCP de AmericanFly. Pocas, con descripciones cortas y respuestas en tabla: las
+// Herramientas de consulta del MCP de DemoImportacion. Pocas, con descripciones cortas y respuestas en tabla: las
 // definiciones viajan en cada mensaje y el JSON repite llaves, asi se gastan menos tokens. Cada una usa el permiso del
 // boton de su pantalla (Botones*.jsx) y las reglas de acceso de acceso.js. Lo especifico (inventario, ventas,
 // pendientes, cartera) tiene herramienta propia; todo lo demas sale por "consultar" (consultas.js).
@@ -796,7 +796,7 @@ const archivos = require('./archivos')
 const r2 = (n) => Math.round((Number(n) || 0) * 100) / 100
 const urlBase = () => String(process.env.MCP_PUBLIC_URL || '').trim().replace(/[/.]+$/, '')
 const nombreArchivo = (t) => String(t || '').normalize('NFD').replace(/[̀-ͯ]/g, '').trim().replace(/[^\w.-]+/g, '_')
-const empresa = () => process.env.REACT_APP_NOMBRE_INSTITUCION || 'American Fly'
+const empresa = () => process.env.REACT_APP_NOMBRE_INSTITUCION || 'Demo Importacion'
 const pieDe = (u) => `Generado desde Claude por ${persona(u)} el ${U.hoyStr()}`
 
 // El PDF se queda en memoria 30 min y se baja con GET /mcp/archivo/:token (ver archivos.js)

@@ -202,7 +202,7 @@ module.exports = {
         // Solo clientes cuya area es una tienda. Antes era un $nin que excluia
         // a Tienda Maya (la unica tienda activa) y dejaba pasar a CEDIS, General
         // y bodegas: ~1,100 clientes que nunca tienen ventas de tienda.
-        // (REACT_APP_AREAS_BENY no existe en el .env de AmericanFly.)
+        // (REACT_APP_AREAS_BENY no existe en el .env de DemoImportacion.)
         Clientes.find({areas:{$in:[process.env.REACT_APP_AREAS_ABY, process.env.REACT_APP_AREAS_MAYA]}} )
         .populate('grupos')
         .populate('areas')

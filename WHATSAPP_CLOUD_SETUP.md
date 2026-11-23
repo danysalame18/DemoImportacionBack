@@ -88,7 +88,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
   Hola {{1}}, te informamos que tu saldo actual es de {{2}}.
   Si deseas recibir tu estado de cuenta, responde a este mensaje con la palabra "Estado de cuenta".
   ```
-- **Pie de página:** `American Fly`
+- **Pie de página:** `Demo Importacion`
 - **Botones:** Respuesta rápida → `Estado de cuenta`
 - **Ejemplos:** {{1}} = `Dani Salame`, {{2}} = `$15,000.00 USD`
 
@@ -99,7 +99,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
   ```
   Hola {{1}}, adjuntamos tu Estado de Cuenta actualizado. Si tienes alguna duda, estamos a tus órdenes.
   ```
-- **Pie de página:** `American Fly`
+- **Pie de página:** `Demo Importacion`
 - **Ejemplos:** {{1}} = `Dani Salame`, documento de muestra `EdoCta.pdf`
 
 ### 4.3 `envio_documento`  *(REQUERIDA — entrega proactiva de PDFs: inventario, disponible, corte, notas, abonos…)*
@@ -109,7 +109,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
   ```
   Hola {{1}}, te compartimos el documento solicitado: {{2}}.
   ```
-- **Pie de página:** `American Fly`
+- **Pie de página:** `Demo Importacion`
 - **Ejemplos:** {{1}} = `Dani Salame`, {{2}} = `Inventario`, documento `Inventario.pdf`
 
 ### 4.4 `notificacion_general`  *(RECOMENDADA — respaldo de avisos de texto proactivos)*
@@ -119,7 +119,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
   ```
   Hola, {{1}}
   ```
-- **Pie de página:** `American Fly`
+- **Pie de página:** `Demo Importacion`
 - **Ejemplos:** {{1}} = `tu pedido #1234 ya está listo para entrega.`
 
 ### 4.5 `menu_servicios`  *(OPCIONAL — re-enganche proactivo con el menú)*
@@ -127,7 +127,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
 - **Encabezado:** Ninguno
 - **Cuerpo:**
   ```
-  Hola, gracias por contactar a American Fly. Selecciona una opción o escríbela:
+  Hola, gracias por contactar a Demo Importacion. Selecciona una opción o escríbela:
 
   • Saldo
   • Estado de cuenta
@@ -135,7 +135,7 @@ para todas: **UTILITY** (Utilidad), idioma **Español (MX)**.
   • Inventario
   • Disponible
   ```
-- **Pie de página:** `American Fly`
+- **Pie de página:** `Demo Importacion`
 - **Botones:** Respuesta rápida → `Saldo`, `Estado de cuenta`, `Disponible`
 
 > El catálogo también está en código en `services/WhatsAppTemplates.js`

@@ -8,7 +8,7 @@ const { FECHA_OK } = require('./util')
 const MAX_CARACTERES = 40000
 
 const instrucciones = () =>
-  `ERP de ${process.env.REACT_APP_NOMBRE_INSTITUCION || 'American Fly'} (ropa al mayoreo y tiendas). ` +
+  `ERP de ${process.env.REACT_APP_NOMBRE_INSTITUCION || 'Demo Importacion'} (ropa al mayoreo y tiendas). ` +
   'Mayoreo: pedido → nota (surtido); Tiendas: ventas de mostrador (Mixcalco). Montos MXN sin centavos; ' +
   'Venta = sin IVA y con descuento, menos devoluciones. Tienda Aby ya no se maneja aquí. ' +
   'Respuestas en tabla "col|col"; celda vacía = 0; si dicen saltar=N hay más renglones. Para "¿cómo vamos?" usa resumen. ' +
@@ -24,7 +24,7 @@ const texto = (t, isError) => ({ content: [{ type: 'text', text: t }], ...(isErr
 
 function crearServidor(user) {
   const server = new McpServer(
-    { name: 'americanfly-erp', title: process.env.REACT_APP_NOMBRE_INSTITUCION || 'American Fly', version: '1.0.0' },
+    { name: 'demoimportacion-erp', title: process.env.REACT_APP_NOMBRE_INSTITUCION || 'Demo Importacion', version: '1.0.0' },
     { instructions: instrucciones() }
   )
   HERRAMIENTAS.filter((h) => !h.permiso || h.permiso(user)).forEach((h) => {

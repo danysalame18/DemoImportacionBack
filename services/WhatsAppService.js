@@ -132,7 +132,7 @@ function uploadPdfBuffer(buffer, fileName = "documento.pdf") {
   return new Promise((resolve, reject) => {
     try {
       const safe = String(fileName).replace(/[^a-zA-Z0-9._-]/g, "_").replace(/\.pdf$/i, "");
-      const publicId = `americanFlyDocs/${safe}-${Date.now()}-${Math.round(Math.random() * 1e6)}`;
+      const publicId = `demoImportacionDocs/${safe}-${Date.now()}-${Math.round(Math.random() * 1e6)}`;
       const stream = cloudinary.uploader.upload_stream(
         { resource_type: "raw", public_id: publicId, format: "pdf", overwrite: true },
         (err, result) => (err ? reject(err) : resolve(result?.secure_url))

@@ -129,6 +129,26 @@ login: async (req, res) => {
     }
   },
 
+    // Un usuario con permiso de usuarios le pone contraseña nueva a otro (sin pedir la actual).
+    passwordAdmin: async (request, response)=>{
+        try {
+            const { passwordNuevo } = request.body;
+            if (typeof passwordNuevo !== 'string' || passwordNuevo.length < 6) return response.status(400).json({message: 'La contraseña debe tener al menos 6 caracteres'});
+            const quien = await User.findById(request.decoded.id);
+            if (!quien || quien.is_active !== 'Si' || !quien.usuarios_create) return response.status(403).json({message: 'No tienes permiso para cambiar contraseñas'});
+            const destino = await User.findById(request.params.id);
+            if (!destino) return response.status(404).json({message: 'Usuario no encontrado'});
+            if (destino.email === 'admin@lynqro.com' && quien.email !== 'admin@lynqro.com') return response.status(403).json({message: 'No se puede cambiar la contraseña de este usuario'});
+            const hash = bcrypt.hashSync(passwordNuevo, SALT_WORK_FACTOR);
+            await User.findByIdAndUpdate(destino._id, {password: hash});
+            Logs.create({ tipo: 'Cambio Contraseña', detalle: `${destino.nombre} ${destino.apellido}`, user: quien._id }).catch(() => {});
+            return response.status(200).json({message: 'Se guardó la contraseña'});
+        } catch (error) {
+            console.error('passwordAdmin error:', error?.message || error);
+            return response.status(500).json({message: 'No se pudo cambiar la contraseña'});
+        }
+    },
+
     passwordUser: async (request, response)=>{
         const { email, password, passwordNuevo } = request.body;
         try {

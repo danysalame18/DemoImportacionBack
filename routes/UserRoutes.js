@@ -14,6 +14,7 @@ router.get('/users/cliente/:id', verifyToken, UserController.findOneClientePassw
 router.get('/users/familia/:id', verifyToken, UserController.findOneFamiliaPassword);
 router.post('/users', verifyToken, UserValidator.create, UserController.signup);
 router.patch('/users/:id', verifyToken, UserValidator.edit, UserController.edit);
+router.patch('/users/passwordAdmin/:id', verifyToken, UserController.passwordAdmin);
 router.patch('/users/passwordUser/:id', verifyToken, UserValidator.edit, UserController.passwordUser);
 router.patch('/users/passwordCliente/:id', verifyToken, UserValidator.edit, UserController.passwordCliente);
 router.delete('/users/:id', verifyToken, UserController.delete)

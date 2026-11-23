@@ -15,7 +15,7 @@ cloudinary.config({
 //     let art2 = articulos.slice(0, 1500);
 
 //     for (const articulo of art2) {
-//       const publicId = `americanFlyArticulos/${articulo._id}`;
+//       const publicId = `demoImportacionArticulos/${articulo._id}`;
 
 //       try {
 //         const result = await cloudinary.api.resource(publicId);
@@ -86,7 +86,7 @@ module.exports = {
       const limpiar = () => { try { fs.unlinkSync(path); } catch (e) {} };
       cloudinary.uploader.upload(
         path,
-        { public_id: `americanFlyEvidencia/${uniqueFilename}`, tags: nombre, format:"jpg", quality: "auto:low" }, // directory and tags are optional
+        { public_id: `demoImportacionEvidencia/${uniqueFilename}`, tags: nombre, format:"jpg", quality: "auto:low" }, // directory and tags are optional
         function (err, image) {
           limpiar();
           if (err) return res.status(500).send(err);
@@ -123,7 +123,7 @@ module.exports = {
       }
       cloudinary.uploader.upload(
         path,
-        { public_id: `americanFlyArticulos/${c[0]._id}`, format:"jpg", quality: "auto:low", overwrite: true }, // directory and tags are optional
+        { public_id: `demoImportacionArticulos/${c[0]._id}`, format:"jpg", quality: "auto:low", overwrite: true }, // directory and tags are optional
        async function (err, image) {
           if (err) return res.send(err);
           await Articulos.findByIdAndUpdate(
@@ -158,7 +158,7 @@ module.exports = {
       const articulo = req.body.articulo;
       cloudinary.uploader.upload(
         path,
-        { public_id: `americanFlyArticulos/${articulo}`, format:"jpg", quality: "auto:low", overwrite: true }, // directory and tags are optional
+        { public_id: `demoImportacionArticulos/${articulo}`, format:"jpg", quality: "auto:low", overwrite: true }, // directory and tags are optional
         async function (err, image) {
           if (err) return res.send(err);
           await Articulos.findByIdAndUpdate(
@@ -175,7 +175,7 @@ module.exports = {
   },
   findOne: (req, res) => {
     cloudinary.api.resource(
-      `americanFlyArticulos/${req.params.id}`,
+      `demoImportacionArticulos/${req.params.id}`,
       function (err, result) {
         if (err) return res.send(err);
         res.status(200).json(result);
@@ -248,7 +248,7 @@ module.exports = {
         // Array para guardar las promesas
         let promises = art.map(a => {
             return new Promise((resolve, reject) => {
-                cloudinary.api.resource(`americanFlyArticulos/${a._id}`, async function (err, result) {
+                cloudinary.api.resource(`demoImportacionArticulos/${a._id}`, async function (err, result) {
                     if (err) return reject(err);
                     try {
                         await Articulos.findByIdAndUpdate(
